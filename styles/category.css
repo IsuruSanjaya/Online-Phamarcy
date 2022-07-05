@@ -1,0 +1,65 @@
+.menu a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu a:hover{
+	background-color: gray;
+	text-transform: uppercase;
+}
+
+.mTable {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 200px;
+	background-color: cadetblue;
+}
+
+.menu {
+	flex: 1;
+}
+
+
+
+.category{
+	display: flex;
+}
+
+.numtable a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.nTable {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 250px;
+	background-color: cadetblue;
+}
+
+.nTable td{
+	align: center;
+}
+
+.box1{
+	display: flex;
+}
+
+.itmName{
+	flex: 1;
+	align-content: center;
+}
+
+.btnBuy{
+	flex: 1;
+}
+
+.item{
+	margin-right: 55px;
+	margin-left: 55px;
+	margin-bottom: 20px;
+}
+
+.box1{
+	margin-bottom: 5px;
+}

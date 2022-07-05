@@ -1,0 +1,113 @@
+.product{
+  border: 1px solid #000000fa;
+  margin: 2px 2px 8px 2px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+		
+	
+
+table,th,tr,td{
+  text-align: center;
+	border: 1px solid rgb(34, 128, 50);
+	border-collapse: collapse;
+	padding: 1%;
+}
+        
+.title2{
+  text-align: center;
+  color: #00ad5c;
+  background-color: #efefef;
+  padding: 2%;
+}
+h2{
+  text-align: center;
+  color: #00ad5c;
+  background-color: #efefef;
+  padding: 2%;
+}
+        
+table th{
+ background-color: #efefef;
+}
+		
+		
+	
+.btn {
+  background-color: #00ad5c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.btn:hover {
+	opacity: 1;
+	background-color: #ddd;
+  
+}
+	
+.processbtn {
+  background-color: rgb(60, 255, 0);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.processbtn:hover {
+	opacity: 1;
+	background-color: #ddd;
+  color: rgb(65, 228, 0);
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.pagination {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
